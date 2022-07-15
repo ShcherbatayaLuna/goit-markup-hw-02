@@ -96,3 +96,26 @@ body {
 .footer-contacts {
     color: #FFFFFF99;
 }
+
+/* Основа Портфолио */
+.portfolio {
+    background-color: var(--second-background-color);
+}
+.link-button {
+    color: var(--title-text-color);
+    background-color: var(--bcg-color);
+}
+.link-button:hover,
+.link-button:focus,
+.link-button.current {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* Проекты */
+.project-link {
+    background-color: var(--white-color);
+}
+.project-title {
+    color: var(--title-text-color);
+}
