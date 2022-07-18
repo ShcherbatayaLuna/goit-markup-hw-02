@@ -64,6 +64,8 @@ body {
 }
 
 /* Основа страницы */
+
+/* Герой */
 .hero-title {
     color: var(--white-color);
 }
