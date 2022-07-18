@@ -25,7 +25,10 @@ borders: #EEEEEE;
 }
 body {
     color: var(--primary-text-color);
-    background-color: var(--primary-background-color)
+    background-color: var(--primary-background-color);
+    font-family: 'Roboto';
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 /* Шапка страницы */
@@ -37,14 +40,32 @@ body {
 /* Логотип */
 .logo {
     color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 .logo-header {
     color: #000000;
 }
 
 /* Навигация страницы */
+.nav-list,
+.work-list,
+.team-list,
+.list {
+    list-style: none;
+}
 .link-nav {
     color: var(--title-text-color);
+}
+.link-nav,
+.contacts {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .link-nav.current {
     color: var(--accent-color);
@@ -68,9 +89,25 @@ body {
 /* Герой */
 .hero-title {
     color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .hero-button {
+    color: var(--white-color);
     background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* Чем мы занимаемся */
@@ -82,10 +119,32 @@ body {
 .team-title {
     color: var(--title-text-color);
 }
+.work-title {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+.title {
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
 
 /* Наша команда */
 .team {
     background-color: var(--bcg-color);
+}
+.team-title {
+    font-weight: 500;
+}
+.team-title,
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 /* Подвал */
@@ -94,10 +153,17 @@ body {
 }
 .address {
     color: var(--white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .footer-contacts {
     color: #FFFFFF99;
+    text-decoration: none;
 }
+
+
+
 
 /* Основа Портфолио */
 .portfolio {
@@ -106,6 +172,12 @@ body {
 .link-button {
     color: var(--title-text-color);
     background-color: var(--bcg-color);
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
 }
 .link-button:hover,
 .link-button:focus,
@@ -118,6 +190,17 @@ body {
 .project-link {
     background-color: var(--white-color);
 }
+.link {
+    text-decoration: none;
+}
 .project-title {
     color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.project-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
 }
