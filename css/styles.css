@@ -152,10 +152,13 @@ text-align: center;
     color: var(--white-color);
 }
 .address {
-    color: var(--white-color);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+}
+.footer-address {
+    color: var(--white-color);
+    text-decoration: none;
 }
 .footer-contacts {
     color: #FFFFFF99;
